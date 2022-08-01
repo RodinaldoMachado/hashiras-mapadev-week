@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokemon Slider</title>
+
+    <link rel="shortcut icon" href="src/imagens/logo-kimetsu.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/logo-kimetsu.png" alt="logo demon slayer" class="pokebola">
+        <h1 class="titulo">MapaDev Week</h1>
+    </header>
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voutar">
+            <img src="src/imagens/seta.png" alt="seta voutar">
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Giyu Tomioka</h2>
+                    <p class="vida">Água</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/tomioka.png" alt="Tomioka" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Utilizando a técnica de respiração da água, Tomioka tem o mesmo estilo de combate de Tanjiro,
+                        caracterizados por golpes precisos. Aliás, ambos aprenderam com o mesmo mestre: Sakonji
+                        Urokodaki.<br>
+
+                        Além das dez formas tradicionais de respiração da água, Tomioka criou uma 11ª forma. Essa
+                        técnica é utilizada contra o demônio Rui e consiste em manter completa tranquilidade, o que o
+                        garante velocidade imperceptível
+                    </p>
+
+                </div>
+            </li>
+            <li class="cartao   fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Shinobu Kocho</h2>
+                    <p class="vida">Inseto</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/kocho.png" alt="Shinobu" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Shinobu, além de ser uma exímia espadachim, tem experiência médica que ela leva ao combate.
+                        Apesar de não ter a mesma força física de seus companheiros, ela é igualmente letal, utilizando
+                        uma lâmina mais fina coberta por um veneno mortífero.<br>
+
+                        Ela utiliza a agilidade superior para alvejar os oponentes com múltiplos golpes venenosos e, por
+                        fim, os matando como um Pilar do Inseto deveria.
+                    </p>
+
+                </div>
+            </li>
+            <li class="cartao  fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Obanai Iguro </h2>
+                    <p class="vida">Serpentes</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/obanai.png" alt="Obanai" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        O jovem Obanai é um excelente espadachim que, apesar de ser parcialmente cego do olho direito,
+                        não deixa os oponentes escaparem. Ele utiliza uma espada assimétrica da categoria cris, que
+                        remete ao corpo esguio de uma cobra. <br>
+
+                        E serpente é justamente a técnica de respiração que ele utiliza, um derivado da respiração da
+                        água dominada por Giyu e Tanjiro. Os métodos de combate se destacam por movimentos que confundem
+                        e surpreendem o inimigo, sem dar a ele uma chance de fuga.
+                    </p>
+
+                </div>
+            </li>
+            <li class="cartao   fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Mitsuri Kanroji</h2>
+                    <p class="vida">Amor</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/mitsuri.png" alt="Mitsuri" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Caracterizada pelos cabelos rosados com pontas verdes e uma personalidade apaixonada, Mitsuri é
+                        uma pessoa tímida. Em combate, ela usa a técnica de respiração do amor, que dispara. <br>
+
+                        Misturando agilidade, força e uma espada inusitada capaz de se estender e se retrair, a Hashira
+                        apresenta versatilidade e pode surpreender.
+                    </p>
+
+                </div>
+            </li>
+            <li class="cartao   fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Kyojuro Rengoku </h2>
+                    <p class="vida">Chamas</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/rengoku.png" alt="Rengoku" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Rengoku utiliza a técnica da respiração das chamas (diferente da respiração especial de
+                        Tanjiro), que consiste em poderosos golpes feitos para incapacitar os oponentes. <br>
+
+                        O entusiasmado rapaz é protagonista do filme Mugen Train e principal aliado de Tanjiro nesse
+                        arco sequencial da primeira temporada. Quem assistiu garante: a história do Hashira é de
+                        emocionar, afinal, nem tudo são flores no mundo de Demon Slayer.
+                    </p>
+
+                </div>
+            </li>
+            <li class="cartao   fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Sanemi Shinazugawa</h2>
+                    <p class="vida">Vento</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/sanemi.png" alt="Sanemi" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        De visual excêntrico e explosivo, Sanemi utiliza a respiração do Vento, o que faz com que ele
+                        aja como um furacão no campo de batalha. Em uma das formas da técnica, por exemplo, ele avança
+                        para cima do oponente girando como um ciclone. <br>
+
+                        A respiração de Sanemi é caracterizada pela incessante cadência de golpes e, ironicamente, pouco
+                        espaço de tempo para que o oponente respire
+                    </p>
+
+                </div>
+            </li>
+            <li class="cartao   fundo-7">
+                <div class="informacoes">
+                    <h2 class="nome">Gyomei Himejima</h2>
+                    <p class="vida">Rocha</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/gyumei.png" alt="Gyumei" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Gyomei se destacou entre os Hashiras por ser o maior do grupo e por aparecer chorando sem parar.
+                        Esse gigante gentil utiliza uma arma de correntes no melhor estilo kusarigama, a fim de
+                        compensar o fato de ser cego -- assim, ele consegue ouvir o som das correntes e utilizá-la mais
+                        efetivamente do que com uma espada. <br>
+
+                        O Hashira utiliza a respiração da rocha, que pode ser usada apenas em conjunto com armas da
+                        categoria que ele usa. A técnica é caracterizada por golpes pesados e uso do terreno para
+                        refletir e bloquear ataques. É conhecido como o Pilar mais forte do Esquadrão de Extermínio.
+                    </p>
+
+                </div>
+            </li>
+            <li class="cartao   fundo-8">
+                <div class="informacoes">
+                    <h2 class="nome">Tengen Uzui </h2>
+                    <p class="vida">Som</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/uzui.png" alt="Uzui" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Tengen, notório pela tatuagem vermelha em torno do olho esquerdo, utiliza duas grandes espadas,
+                        maiores do que uma lâmina Nichirin comum, conectadas por uma corrente. <br>
+
+                        A respiração do som transforma o combate do Hashira em uma dança rítmica após ele analisar os
+                        padrões de sons por meio dos movimentos do oponente. Além disso, espere muito barulho, pois ele
+                        utiliza bombas para criar grandes explosões acompanhadas de estrondos sonoros. O Pilar é o
+                        grande destaque da segunda temporada do anime, que adaptou o arco do Distrito do Entretenimento.
+                        Extravagante, né?
+                    </p>
+
+                </div>
+            </li>
+            <li class="cartao   fundo-9">
+                <div class="informacoes">
+                    <h2 class="nome">Muichiro Tokito </h2>
+                    <p class="vida">Névoa</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/tokito.png" alt="Tokito" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Muichiro é um introspectivo e distraído jovem espadachim. Ele, diferente de muitos dos Hashira
+                        mencionados acima, utiliza uma espada comum e alcançou o posto de Pilar da sociedade de
+                        extermínio em apenas dois meses de treinamento. <br>
+
+                        Abraçando a respiração da névoa, Muichiro foca em depravar os sentidos dos oponentes -- como a
+                        névoa faz. Assim, os golpes dele consistem em ataques velozes que deixam os inimigos sem saberem
+                        de onde a ferida veio.
+                    </p>
+
+                </div>
+            </li>
+
+
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avancar">
+        </button>
+
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
